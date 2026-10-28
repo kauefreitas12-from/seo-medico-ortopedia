@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "kauefreitas12@gmail.com",
+    "name": "Kaue Rodrigues"
+  },
+  "description": "Criação e revisão de artigos de SEO médico em ortopedia e traumatologia, com rigor clínico, pesquisa e links verificados.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Healthcare",
+        "defaultPrompt": [
+          "Crie um artigo sobre condromalácia patelar seguindo o padrão editorial do plugin.",
+          "Quero criar um artigo médico otimizado para SEO. Pergunte o tema.",
+          "Revise meu artigo conforme as regras de SEO médico e segurança clínica do plugin."
+        ],
+        "developerName": "Kaue Rodrigues",
+        "displayName": "SEO Médico | Ortopedia",
+        "longDescription": "Produz artigos originais em português brasileiro para ortopedistajoelho.com.br, com mínimo de 1.800 palavras, metadados, entrega em Word no modelo editorial, sem FAQ nem citações ou referências visíveis, e foco em segurança do paciente. Orienta pesquisa em fontes reconhecidas, verificação de cinco links internos e dos dados do Dr. Vinícius. Depende das ferramentas de pesquisa disponíveis na conversa e sinaliza verificações pendentes. A validação clínica cabe ao médico responsável.",
+        "shortDescription": "Artigos médicos com SEO"
+      }
+    }
+  },
+  "name": "seo-medico-ortopedia",
+  "version": "1.0.1"
+}
